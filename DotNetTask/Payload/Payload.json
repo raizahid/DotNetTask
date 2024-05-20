@@ -1,0 +1,51 @@
+{
+	"ProgramTemplate": {
+		"ProgramTitle": "Sample Program",
+		"ProgramDescription": "This is a sample program description.",
+		"FirstName": "John",
+		"LastName": "Doe",
+		"Email": "john.doe@example.com",
+		"Phone": "123-456-7890",
+		"Nationality": "American",
+		"IDCard": "ID12345678",
+		"DateOfBirth": "1980-01-01T00:00:00",
+		"Gender": "Male"
+	},
+	"Questions": [
+		{
+			"Id": 0,
+			"Question": "What is your favorite color?",
+			"QuestionType": "MultipleChoice",
+			"QuestionString": "[\"Red\", \"Blue\", \"Green\"]"
+		},
+		{
+			"Id": 0,
+			"Question": "Please describe your experience.",
+			"QuestionType": "Text",
+			"QuestionString": null
+		}
+	],
+		"CandidateForm": {
+			"ProgramTemplateId": 1,
+			"FirstName": "Jane",
+			"LastName": "Doe",
+			"Email": "jane.doe@example.com",
+			"SubmittedDate": "2024-05-17T00:00:00"
+		},
+	"CandidateAnswers": [
+		{
+			"QuestionId": 1,
+			"Answer": "[\"Red\", \"Blue\"]"
+		},
+		{
+			"QuestionId": 2,
+			"Answer": "I have 5 years of experience in software development."
+		},
+		{
+			"QuestionId": 3,
+			"Answer": "[\"Red\", \"Blue\", \"Marked\"]"
+		}
+	]
+	}
+
+
